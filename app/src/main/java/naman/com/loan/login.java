@@ -1,5 +1,6 @@
 package naman.com.loan;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -23,6 +24,12 @@ public class login extends AppCompatActivity {
         pass= (EditText) findViewById(R.id.pass);
         login = (Button) findViewById(R.id.login);
         register = (Button) findViewById(R.id.register);
+        register.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(login.this, Register.class));
+            }
+        });
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

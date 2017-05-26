@@ -59,7 +59,7 @@
 
 
     <Button
-        android:id="@+id/login"
+        android:id="@+id/create"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
@@ -69,7 +69,7 @@
         android:background="@color/def_blue"
         android:text="Create Account" />
     <Button
-        android:id="@+id/register"
+        android:id="@+id/login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
